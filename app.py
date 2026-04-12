@@ -43,3 +43,46 @@ import math
 print(round(10/3))
 print(abs(-12))
 print(math.factorial(5))
+
+#type conversion
+
+a = input("x:")
+b = int(a) + 1
+#c = float(a) + 1
+#d = bool(a) + 1
+print(f"a={a}, b={b}")
+
+#Conditional operator
+
+temprature = 35
+if temprature >= 35:
+    print("Today is so hot outside")
+elif temprature < 35:
+    print("Today is nice outside")
+else:
+    print("Cold outside")
+
+
+#Ternary operator
+
+age = 18
+message = "Eligible" if age>19 else "Not eligible"
+print(message)
+
+#Logical operator
+
+check=True
+fit=True
+
+if check and fit:
+    print("Both true")
+elif check or fit:
+    print("One of them true")
+else:
+    print("None of them true")
+
+#Loops
+# i is regular variable and range is how many times to run the loops
+#Same as nested loop
+for i in range(5):
+    print("message:",i)
