@@ -86,3 +86,33 @@ else:
 #Same as nested loop
 for i in range(5):
     print("message:",i)
+
+#Type function
+print(type(5))
+print(type("hello"))
+print(type(True))
+
+#While loop
+num = 10
+while num > 0:
+    num //= 2
+    print(num)
+print("End loop")
+
+#Excercise
+count=0
+for i in range(1,10):
+    if i%2==0:
+        print(i)
+        count+=1
+print(f"We have {count} even numbers")
+
+#Functions
+def greeting_func(first_name, last_name):
+    print("Hello there", first_name)
+    print("Welcome", last_name)
+
+first_name = "Syed Umair"
+last_name = "Ahmed"
+greeting_func(first_name, last_name)
+
