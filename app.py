@@ -116,3 +116,19 @@ first_name = "Syed Umair"
 last_name = "Ahmed"
 greeting_func(first_name, last_name)
 
+#Loop over list
+array = ['a','b','c']
+
+for index,letter in enumerate(array):
+    print()
+
+#Add or remove from array
+arr=[1,2,2,3,4,5]
+arr.append(33) 
+arr.insert(0,9)
+arr.extend(range(9))
+print(arr)
+arr.remove(2)
+arr.pop() #last index but ypu can pass an index to remove
+print(arr)
+
