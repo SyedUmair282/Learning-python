@@ -99,6 +99,13 @@ while num > 0:
     print(num)
 print("End loop")
 
+#reverse loop
+nums=[1,2,3,4,5,6]
+print(f'reversed==>{nums[::-1]}')
+
+for i in reversed(nums):
+    print(i)
+
 #Excercise
 count=0
 for i in range(1,10):
@@ -122,7 +129,7 @@ array = ['a','b','c']
 for index,letter in enumerate(array):
     print()
 
-#Add or remove from array
+#Add or remove from array/list
 arr=[1,2,2,3,4,5]
 arr.append(33) 
 arr.insert(0,9)
